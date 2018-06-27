@@ -7,33 +7,39 @@
     <title>Crystal Collector</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../unit-4-game/assets/css/style.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
 </head>
 
-<body>
+<body class="bodyBg">
     <div>
-        <h1>Crystal Collector!</h1>
-        <ul>
-            <li>You will be given a random number at the start of the game</li>
-            <li>When you click on each crystal, a random number will be added to your current score.</li>
-            <li>If you reach the target number you win! If you go over, it's game over for you.</li>
-            <li>Each time you get a new target number, the value of each crystal changes</li>
-        </ul>
+        <h1 class="header">Crystal Collector!</h1>
+
+        <div class="instructions">
+            <p>You will be given a random number at the start of the game</p>
+            <p>When you click on each crystal, a random number will be added to your current score.</p>
+            <p>If you reach the target number you win! If you go over, it's game over for you.</p>
+            <p>Every time you win or lose, the value of each crystal changes to a differnt number!</p>
+        </div>
     </div>
 
     <div>
-        <img class= "bartz" id= "crystal1" src="assets/images/bartz.png">
-        <img class= "cecil" id= "crystal2" src="assets/images/cecil.png">
-        <img class= "onion" id= "crystal3" src="assets/images/OkCrystal.jpg">
-        <img class= "zidane" id= "crystal4" src="assets/images/zidaneCrystal.jpg">
+        <img class="bartz" id="crystal1" src="assets/images/bartz.png">
+        <img class="cecil" id="crystal2" src="assets/images/cecil.png">
+        <img class="onion" id="crystal3" src="assets/images/OkCrystal.jpg">
+        <img class="zidane" id="crystal4" src="assets/images/zidaneCrystal.jpg">
     </div>
 
-    <h2 id="targetNum">Target Score: </h2>
-    <h4 id="totalScore">Current Score: 0</h4>
-    <h4 id="wins">Wins: 0</h4>
-    <h4 id="losses">Losses: 0</h4>
+    <div class="values">
+        <h2 id="targetNum">Target Score: </h2>
+        <h4 id="totalScore">Current Score: 0</h4>
+        <h4 id="wins">Wins: 0</h4>
+        <h4 id="losses">Losses: 0</h4>
+    </div>
 
     <script src="./assets/javascript/game.js"></script>
 </body>

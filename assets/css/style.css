@@ -1,20 +1,57 @@
 .bartz{
-    height: 247px;
-    width: 269px;
+    height: 197px;
+    width: 229px;
+    background-color: white;
+    border: 5px solid yellowgreen;
+    margin: 5px;
 }
 
 .cecil{
-    height: 247px;
+    height: 197px;
     width: 87px;
+    background-color: white;
+    border: 5px solid yellowgreen;
+    margin: 5px;
 }
 
 .onion{
-    height: 247px;
+    height: 197px;
     width: 87px;
+    background-color: white;
+    border: 5px solid yellowgreen;
+    margin: 5px;
 }
 
 .zidane {
-    height: 247px;
+    height: 197px;
     width: 135px;
+    background-color: white;
+    border: 5px solid yellowgreen;
+    margin: 5px;
 }
 
+.bodyBg {
+    font-family: 'Permanent Marker', cursive;
+    background-image:url(../images/escheresque_ste.png);
+    text-align: center
+}
+
+.header {
+    background-image:url(../images/what-the-hex.png);
+    border: 5px red solid;
+    margin: 5px;
+}
+
+.instructions {
+    font-size: 20px;
+    background-image:url(../images/what-the-hex.png);
+    border: 5px solid cyan;
+    margin: 5px;
+}
+
+.values {
+    background-image:url(../images/what-the-hex.png);
+    border: 5px red solid;
+    width: 250px;
+    margin-left:42.5%;
+}
